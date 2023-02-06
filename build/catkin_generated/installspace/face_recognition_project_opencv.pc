@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: face_recognition_project_opencv
+Description: Description of face_recognition_project_opencv
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

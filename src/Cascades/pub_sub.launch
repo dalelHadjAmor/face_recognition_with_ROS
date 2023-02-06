@@ -1,0 +1,17 @@
+<launch>
+  <node
+    pkg="Cascades"
+    type="webcam_pub.py"
+    name="webcam_pub"
+    output="screen"
+  />
+  <node
+    pkg="Cascades"
+    type="webcam_sub.py"
+    name="webcam_sub"
+    output="screen"
+  />
+ 
+ 
+
+</launch>
